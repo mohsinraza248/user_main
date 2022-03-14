@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+
+}
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .header {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      
+      
+  }
+  .header img{
+      justify-content: space-between;
+  }
+  .disp1 {
+      width: 40px;
+  }
+  .disp2 {
+      margin-top: 4vw;
+  }
+  .disp2 {
+      width: 200px;
+  }
+  .pic{
+      margin-top: 2vw;
+      margin-left: -2em;
+  }
+  #History {
+      display: flex;
+      justify-content: center;
+      margin-left: 10em;
+  }
+  .btns img{
+      width: 120px;
+  }
+  .sc{
+      display: flex;
+      justify-content: center;
+      margin-left: -9em;
+  }
+  .sc2 {
+      display: flex;
+      justify-content: center;
+      margin-left: 10em;
+      margin-top: -6em;
+    
+  }
+  .sc2 img{
+      width: 130px;
+      height: 95px;
+  }
+  .grid img{
+      width: 300px;
+  }
+  .grid{
+      display: flex;
+      justify-content: center;
+      margin-top: 2em;
+  }
+  .btns1 img{
+      width: 100px;
+  }
+  #bingo {
+      display: flex;
+      justify-content: center;
+      margin-top: 1em;
+  }
+  .but1 img {
+      width: 100px;
+  }
+  .but3 img {
+      width: 100px;
+
+  }
+  .but7{
+      display: flex;
+      flex-direction: column;
+  }
+  .but8{
+      display: flex;
+      flex-direction:  column;
+  }
+  .but2 img{
+      width: 100px;
+
+  }
+  .but4 img {
+      width: 100px;
+  }
+/*  @media only screen   
+and (min-device-width : 360px)   
+and (max-device-width : 900px) {
+    .disp1{
+        width: 50px;
+        
+    }
+}
+@media only screen
+ and (min-device-width : 768px)
+ 
+  {
+     .disp2 {
+         width: 300px;
+     }
+     .disp1 {
+         width: 50px;
+     }
+     .btns img{
+         width: 200px;
+     }
+     .dis img {
+         width: 200px;
+     }
+     .sc2  {
+         margin-left: 12em;
+         
+     }
+     .grid img {
+        width: 400px;
+    }
+    .btns1 img{
+        width: 130px;
+    }
+    .but1 img {
+        width: 150px;
+    }
+    .but2 img {
+        width: 150px;
+    }
+    .but3 img {
+        width: 150px;
+    }
+    .but4 img {
+        width: 150px;
+    }
+ }*/
